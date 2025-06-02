@@ -18,7 +18,7 @@ import {
 import validateFields from '@/lib/validate_fields'
 import axios from 'axios'
 import PredictionResults, { Prediction } from './components/predictions'
-import { RefreshCcw, Trash2 } from 'lucide-react';
+import { RefreshCcw } from 'lucide-react';
 
 
 const formSchema = z.object({
