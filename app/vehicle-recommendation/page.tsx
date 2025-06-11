@@ -209,9 +209,9 @@ export default function VehicleRecommendation() {
                                 <FormItem>
                                     <FormLabel>Price</FormLabel>
                                     <FormControl>
-                                        <Input placeholder="e.g. 140000"
-                                            disabled={isPending}
-                                            {...field} className="bg-neutral-50 border-neutral-300" />
+                                            <Input placeholder="e.g. $ 140000"
+                                                disabled={isPending}
+                                                {...field} className="bg-neutral-50 border-neutral-300" />
                                     </FormControl>
                                     <FormMessage />
                                 </FormItem>
